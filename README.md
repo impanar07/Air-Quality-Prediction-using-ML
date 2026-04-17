@@ -144,4 +144,4 @@ The dataset contains real-time air quality data including:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/air-quality-prediction-ml.git
+   git clone https://github.com/impanar07/Air-Quality-Prediction-using-ML
