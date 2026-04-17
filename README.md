@@ -24,21 +24,21 @@ The goal is to analyze pollutant patterns and build an accurate predictive model
 ### Correlation Heatmap
 This heatmap shows the relationship between different features. Strong positive correlation is observed between pollutant values.
 
-![Heatmap](Images/heatmap.png)
+![Heatmap](Images/Heatmap.png)
 
 ---
 
 ### Actual vs Predicted Values
 This plot demonstrates the accuracy of the model. Points closer to the diagonal indicate better predictions.
 
-![Linear Regression](Images/Linear Regression.png)
+![actual_vs_predicted](Images/actual_vs_predicted.png)
 
 ---
 
 ### Model Performance Comparison
 Comparison of multiple machine learning models based on evaluation metrics.
 
-![Performance Evaluation](Images/Performance Evaluation.png)
+![models_performance](Images/models_performance.png)
 
 ---
 
