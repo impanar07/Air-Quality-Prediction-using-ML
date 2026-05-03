@@ -1,147 +1,44 @@
 # Air Quality Prediction using Machine Learning
 
 ## Project Overview
-This project focuses on predicting air pollution levels using machine learning models trained on real-time air quality data.  
-The goal is to analyze pollutant patterns and build an accurate predictive model to support environmental monitoring and decision-making.
+Air pollution is a critical environmental issue impacting human health and ecosystems. This project applies machine learning techniques to analyze real-time air quality data and predict pollutant levels.
+It focuses on transforming raw environmental data into meaningful insights and predictive models that can assist in monitoring and decision-making.
 
----
-
-## Visualizations
-
-### Correlation Heatmap
-This heatmap shows the relationship between different features. Strong positive correlation is observed between pollutant values.
-
-# Air Quality Prediction using Machine Learning
-
-## Project Overview
-This project focuses on predicting air pollution levels using machine learning models trained on real-time air quality data.  
-The goal is to analyze pollutant patterns and build an accurate predictive model to support environmental monitoring and decision-making.
-
----
-
-## Visualizations
-
-### Correlation Heatmap
-This heatmap shows the relationship between different features. Strong positive correlation is observed between pollutant values.
-
-![Heatmap](Images/Heatmap.png)
-
----
-
-### Actual vs Predicted Values
-This plot demonstrates the accuracy of the model. Points closer to the diagonal indicate better predictions.
-
-![actual_vs_predicted](Images/actual_vs_predicted.png)
-
----
-
-### Model Performance Comparison
-Comparison of multiple machine learning models based on evaluation metrics.
-
-![models_performance](Images/models_performance.png)
-
----
-
-## Models Used
-- Linear Regression  
-- Decision Tree Regressor  
-- Random Forest Regressor  
-- K-Nearest Neighbors (KNN)  
-- Gradient Boosting Regressor  
-
----
-
-## Evaluation Metrics
-- R² Score  
-- Mean Absolute Error (MAE)  
-- Mean Squared Error (MSE)  
-- Root Mean Squared Error (RMSE)  
-
----
-
-## Results
-Linear Regression achieved the best performance with the highest R² score (~0.96), indicating strong linear relationships in the dataset.
-
----
-
-## Technologies Used
-- Python  
-- Pandas, NumPy  
-- Matplotlib, Seaborn  
-- Scikit-learn  
-
----
+## Objectives
+Perform data cleaning and preprocessing
+Analyze pollution trends using EDA
+Engineer and select relevant features
+Build predictive machine learning models
+Generate insights for environmental monitoring
 
 ## Dataset
-The dataset contains real-time air quality data including:
-- Latitude  
-- Longitude  
-- Pollutant Min, Max, and Average values  
+Dataset: Real_time_air_quality.csv
 
----
+Key Features:
 
-## How to Run
+Location: Country, State, City, Station
+Coordinates: Latitude, Longitude
+Pollution Metrics: pollutant_min, pollutant_max, pollutant_avg
+Timestamp: last_update
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/air-quality-prediction-ml.git
+## Tech Stack
+Language: Python
+Libraries:
+Pandas, NumPy
+Matplotlib, Seaborn
+Scikit-learn
 
----
+## Project workflow 
 
-### Actual vs Predicted Values
-This plot demonstrates the accuracy of the model. Points closer to the diagonal indicate better predictions.
+### Data Preprocessing
+Handled missing values using median imputation
+Removed duplicates
+Converted timestamps to datetime
+Applied:
+One-Hot Encoding
+Min-Max Scaling
 
-![Actual vs Predicted](images/actual_vs_predicted.png)
+### Exploratory Data Analysis (EDA)
 
----
 
-### Model Performance Comparison
-Comparison of multiple machine learning models based on evaluation metrics.
 
-![Model Performance](images/model_performance.png)
-
----
-
-## Models Used
-- Linear Regression  
-- Decision Tree Regressor  
-- Random Forest Regressor  
-- K-Nearest Neighbors (KNN)  
-- Gradient Boosting Regressor  
-
----
-
-## Evaluation Metrics
-- R² Score  
-- Mean Absolute Error (MAE)  
-- Mean Squared Error (MSE)  
-- Root Mean Squared Error (RMSE)  
-
----
-
-## Results
-Linear Regression achieved the best performance with the highest R² score (~0.96), indicating strong linear relationships in the dataset.
-
----
-
-## Technologies Used
-- Python  
-- Pandas, NumPy  
-- Matplotlib, Seaborn  
-- Scikit-learn  
-
----
-
-## Dataset
-The dataset contains real-time air quality data including:
-- Latitude  
-- Longitude  
-- Pollutant Min, Max, and Average values  
-
----
-
-## How to Run
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/impanar07/Air-Quality-Prediction-using-ML
