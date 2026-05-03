@@ -5,40 +5,43 @@ Air pollution is a critical environmental issue impacting human health and ecosy
 It focuses on transforming raw environmental data into meaningful insights and predictive models that can assist in monitoring and decision-making.
 
 ## Objectives
-Perform data cleaning and preprocessing
-Analyze pollution trends using EDA
-Engineer and select relevant features
-Build predictive machine learning models
-Generate insights for environmental monitoring
+- Perform data cleaning and preprocessing
+- Analyze pollution trends using EDA
+- Engineer and select relevant features
+- Build predictive machine learning models
+- Generate insights for environmental monitoring
 
 ## Dataset
 Dataset: Real_time_air_quality.csv
 
 Key Features:
 
-Location: Country, State, City, Station
-Coordinates: Latitude, Longitude
-Pollution Metrics: pollutant_min, pollutant_max, pollutant_avg
-Timestamp: last_update
+- Location: Country, State, City, Station
+- Coordinates: Latitude, Longitude
+- Pollution Metrics: pollutant_min, pollutant_max, pollutant_avg
+- Timestamp: last_update
 
 ## Tech Stack
-Language: Python
-Libraries:
-Pandas, NumPy
-Matplotlib, Seaborn
-Scikit-learn
+- Language: Python
+- Libraries:
+- Pandas, NumPy
+- Matplotlib, Seaborn
+- Scikit-learn
 
 ## Project workflow 
 
 ### Data Preprocessing
-Handled missing values using median imputation
-Removed duplicates
-Converted timestamps to datetime
-Applied:
-One-Hot Encoding
-Min-Max Scaling
+- Handled missing values using median imputation
+- Removed duplicates
+- Converted timestamps to datetime
+- Applied:
+- One-Hot Encoding
+- Min-Max Scaling
 
 ### Exploratory Data Analysis (EDA)
+
+- Distribution analysis using histograms
+![Distribution](Images/Histogram.png)
 
 
 
