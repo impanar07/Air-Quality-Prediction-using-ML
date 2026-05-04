@@ -2,7 +2,7 @@
 
 A machine learning project that analyzes real-time air quality data from Indian monitoring stations and predicts average pollutant concentration using environmental, geographic, and pollutant-level features. The project includes data cleaning, exploratory data analysis, feature selection, model benchmarking, and hyperparameter tuning.
 
-![Model Performance Comparison](assets/model-performance-comparison.png)
+![Model Performance Comparison](Images/model-performance-comparison.png)
 
 ## Project Overview
 
@@ -56,15 +56,15 @@ Main columns:
 
 The project visualizes numerical feature distributions, pollutant relationships, correlations, and outliers.
 
-![Numerical Feature Distributions](assets/numerical-feature-distributions.png)
+![Numerical Feature Distributions](Images/numerical-feature-distributions.png)
 
 The correlation heatmap shows that `pollutant_max` and `pollutant_min` are the strongest predictors of `pollutant_avg`.
 
-![Correlation Heatmap](assets/correlation-heatmap.png)
+![Correlation Heatmap](Images/correlation-heatmap.png)
 
 A scatter plot between average and maximum pollutant values confirms a strong positive relationship.
 
-![Pollutant Average vs Maximum](assets/pollutant-avg-vs-max.png)
+![Pollutant Average vs Maximum](Images/pollutant-avg-vs-max.png)
 
 ### 3. Feature Selection
 
@@ -106,7 +106,7 @@ The dataset was split into 80% training and 20% testing data with `random_state=
 
 Linear Regression achieved the best overall performance, with the highest R2 score and lowest RMSE on the test set.
 
-![Linear Regression Actual vs Predicted](assets/linear-regression-actual-vs-predicted.png)
+![Linear Regression Actual vs Predicted](Images/linear-regression-actual-vs-predicted.png)
 
 ## Hyperparameter Tuning
 
@@ -180,6 +180,5 @@ jupyter notebook "ML Project.ipynb"
 - Deploy the trained model using Flask, FastAPI, or Streamlit.
 - Add automated model tracking and experiment comparison.
 
-## Resume Highlight
-
-Developed an end-to-end machine learning pipeline to predict real-time air pollutant levels across Indian monitoring stations using Python, Pandas, Scikit-learn, and regression modeling. Performed data cleaning, EDA, feature selection, model benchmarking, and hyperparameter tuning, achieving a best R2 score of 0.967 with Linear Regression.
+# Author
+## Impana R
