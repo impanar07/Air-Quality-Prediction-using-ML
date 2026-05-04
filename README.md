@@ -163,8 +163,6 @@ jupyter notebook "ML Project.ipynb"
 5. Run all cells to reproduce preprocessing, EDA, model training, and evaluation.
 
 
-```
-
 ## Key Takeaways
 
 - `pollutant_max` and `pollutant_min` are the most influential predictors of average pollutant concentration.
